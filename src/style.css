@@ -4,6 +4,7 @@
     --purple: #5f84f6;
     --dark-purple: #4a66c3;
     --light: #f5f6fb;
+    --darker-light: #8b8b90;
 }
 
 /*Default Settings*/
@@ -60,3 +61,21 @@ a {text-decoration: none;}
 .ta-center {text-align: center;}
 .minh-100vh {height: 100vh;}
 .fs-3 {font-size: 3rem;}
+.w-60 {width: 60%;}
+.c-darker-light {color: var(--darker-light);}
+.main-section-top-items {border-bottom: 1px solid var(--light);}
+.main-section-top-items.active {border-bottom-color: var(--purple);color: var(--purple);}
+.fw-bold {font-weight: bold;}
+.d-grid {display: grid;}
+.col-2 {grid-template-columns: repeat(2, 1fr);}
+.gap {gap: .5rem;}
+.col-2-item {grid-column: span 2;}
+.bg-img-1 {background-image: url("img/img1.jpeg");}
+.bg-img-2 {background-image: url("img/img2.jpg");}
+.bg-img-3 {background-image: url("img/img3.jpg");}
+.bg-cover {background-size: cover;}
+.bg-blur {background: rgba( 255, 255, 255, 0.15 );box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );backdrop-filter: blur( 20px );-webkit-backdrop-filter: blur( 20px );border: 1px solid rgba( 255, 255, 255, 0.18 );}
+.w-2 {width: 2rem;}
+.h-2 {height: 2rem;}
+.circle {border-radius: 100%;}
+.h-30vh {height: 30vh;}
