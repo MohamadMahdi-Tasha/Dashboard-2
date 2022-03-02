@@ -25,9 +25,16 @@
 </head>
 <!--Our Page Content Goes Here-->
 <body class="d-inline-flex w-100 bg-light media-781-flex-d-c">
+<!--Dark Bg That Shows Only On Mobile-->
+<div class="d-none media-781-d-flex w-100 h-100 bg-dark p-fixed left-minus-100"></div>
 <!--Left Side Of Page-->
-<nav class="w-20 bg-white minh-15vh0vh media-781-d-none">
+<nav class="w-20 bg-white minh-15vh0vh media-781-p-fixed media-781-w-100 media-781-h-100 media-781-d-flex media-781-flex-d-c media-781-ai-center media-781-jc-center media-781-left-minus-100">
     <!--Top Side-->
+    <div class="d-flex jc-end ai-center p-dot-5 mb-1 d-none media-781-d-flex">
+        <button class="w-2 h-2 hover-bg-dark-light-c-white circle transition bg-none b-none">
+            <i class="bi bi-x"></i>
+        </button>
+    </div>
     <div class="w-100 d-flex jc-center ai-center flex-d-c mb-1 p-dot-5">
         <div class="d-inline-flex jc-center ai-center w-100 mb-1 mt-1">
             <img src="src/img/logo.svg" class="mr-dot-5" alt="Logo Image">
@@ -103,7 +110,10 @@
             <button class="mr-dot-5 bg-none b-none c-darker-light" type="submit"><i class="bi bi-search"></i></button>
             <input autocomplete="off" id="search-input" class="w-100 bg-none b-none c-darker-light" placeholder="search.." type="text">
         </form>
-        <button class="b-none w-2 h-2 bg-none circle c-darker-light transition hover-bg-dark-light-c-white"><i class="bi bi-bell"></i></button>
+        <div class="d-inline-flex">
+            <button class="b-none w-2 h-2 bg-none circle c-darker-light transition hover-bg-dark-light-c-white d-none media-781-d-block"><i class="bi bi-list"></i></button>
+            <button class="b-none w-2 h-2 bg-none circle c-darker-light transition hover-bg-dark-light-c-white"><i class="bi bi-bell"></i></button>
+        </div>
     </div>
     <div>
         <!--The Section That Is Below The Top Side Of Main Page-->
@@ -206,7 +216,7 @@
     <div>
         <h3 class="mb-1 media-781-ta-center">Upcoming Tasks</h3>
         <ul class="list-unstyled mb-1">
-            <li class="mb-1 media-781-d-flex">
+            <li class="mb-1">
                 <div class="d-inline-flex ai-center media-912-flex-d-c media-912-ai-start media-781-jc-center media-781-ai-center">
                     <div class="w-2 h-2 media-912-mb-dot-5 d-flex jc-center ai-center mr-dot-5 rounded bg-light-purple c-purple"><i class="bi bi-chat-left"></i></div>
                     <div class="mr-dot-5 media-781-ta-center">
