@@ -90,3 +90,5 @@ a {text-decoration: none;}
 .h-40vh {height: 40vh;}
 .border-1-solid-light {border: 1px solid var(--light);}
 .hover-bg-dark-light:hover {background-color: #aeafb3;}
+.hover-bg-dark-light-c-white:hover {background-color: #aeafb3;color: white;}
+.cur-p {cursor: pointer;}
