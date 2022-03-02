@@ -25,13 +25,11 @@
 </head>
 <!--Our Page Content Goes Here-->
 <body class="d-inline-flex w-100 bg-light media-781-flex-d-c">
-<!--Dark Bg That Shows Only On Mobile-->
-<div class="d-none media-781-d-flex w-100 h-100 bg-dark p-fixed left-minus-100"></div>
 <!--Left Side Of Page-->
-<nav class="w-20 bg-white minh-15vh0vh media-781-p-fixed media-781-w-100 media-781-h-100 media-781-d-flex media-781-flex-d-c media-781-ai-center media-781-jc-center media-781-left-minus-100">
+<nav id="left-nav" class="w-20 transition bg-white minh-15vh0vh media-781-p-fixed media-781-w-100 media-781-h-100 media-781-left-minus-100">
     <!--Top Side-->
-    <div class="d-flex jc-end ai-center p-dot-5 mb-1 d-none media-781-d-flex">
-        <button class="w-2 h-2 hover-bg-dark-light-c-white circle transition bg-none b-none">
+    <div class="d-flex jc-end ai-center p-dot-5 mb-1 d-none media-781-d-flex w-100">
+        <button id="left-nav-close-btn" class="w-2 h-2 hover-bg-dark-light-c-white circle transition bg-none b-none">
             <i class="bi bi-x"></i>
         </button>
     </div>
@@ -111,7 +109,7 @@
             <input autocomplete="off" id="search-input" class="w-100 bg-none b-none c-darker-light" placeholder="search.." type="text">
         </form>
         <div class="d-inline-flex">
-            <button class="b-none w-2 h-2 bg-none circle c-darker-light transition hover-bg-dark-light-c-white d-none media-781-d-block"><i class="bi bi-list"></i></button>
+            <button id="left-nav-toggle" class="b-none w-2 h-2 bg-none circle c-darker-light transition hover-bg-dark-light-c-white d-none media-781-d-block"><i class="bi bi-list"></i></button>
             <button class="b-none w-2 h-2 bg-none circle c-darker-light transition hover-bg-dark-light-c-white"><i class="bi bi-bell"></i></button>
         </div>
     </div>
@@ -241,5 +239,6 @@
 <script src="src/scripts/leftSideItems.js"></script>
 <script src="src/scripts/borderOnFocus.js"></script>
 <script src="src/scripts/mainSectionTopItems.js"></script>
+<script src="src/scripts/leftNav.js"></script>
 </body>
 </html>
