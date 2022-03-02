@@ -88,3 +88,5 @@ a {text-decoration: none;}
 .bg-light-orange {background-color: #FFEDD8;}
 .c-orange {color: #ce8b3d;}
 .h-40vh {height: 40vh;}
+.border-1-solid-light {border: 1px solid var(--light);}
+.hover-bg-dark-light:hover {background-color: #aeafb3;}
